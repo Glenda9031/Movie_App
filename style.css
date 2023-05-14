@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    padding: 1px;
+    padding: 1rem;
     display: flex;
     justify-content: flex-end;
     background-color: var(--secondary-color);
@@ -50,7 +50,7 @@ main {
 .movie {
     width: 300px;
     margin: 1rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -58,7 +58,7 @@ main {
 }
 
 .movie img {
-    width: 100%l
+    width: 100%;
 }
 
 .movie-info {
